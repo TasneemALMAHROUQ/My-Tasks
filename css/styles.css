@@ -18,9 +18,9 @@ header {
   padding: 20px;
   border-radius: 8px;
   margin-bottom: 30px;
-   display: flex; /* تفعيل فلكس */
-  justify-content: space-between; /* يخلي العناصر على الطرفين */
-  align-items: center; /* لمحاذاة عمودية مرتبة */
+   display: flex; 
+  justify-content: space-between; 
+  align-items: center;
   
 }
 
