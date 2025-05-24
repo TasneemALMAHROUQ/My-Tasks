@@ -40,11 +40,11 @@ document.addEventListener("DOMContentLoaded", function () {
   const form = document.querySelector("#contact-form form");
 
   form.addEventListener("submit", function (e) {
-    e.preventDefault(); // ما يرسل النموذج فعلياً
+    e.preventDefault(); 
 
     alert("🌸 Thank you for reaching out!\nWe’ll get back to you as soon as possible.");
 
-    form.reset(); // يفرّغ النموذج بعد الإرسال
+    form.reset(); 
   });
 });
 
