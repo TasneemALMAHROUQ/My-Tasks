@@ -19,5 +19,3 @@ Finally, I understood the importance of using wireframes and sketching a rough l
 Expected:2  hours
 
 Actual: Around 4 hours
-
-

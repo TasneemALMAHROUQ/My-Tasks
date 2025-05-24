@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Tasks</title>
+  
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>🐝 My Tasks</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <section id="task-input">
+    <h2>Add a new task</h2>
+    <input type="text" id="new-task" placeholder="Enter your task..." />
+    <button onclick="addTask()">Add Task</button>
+  </section>
+
+  <section id="task-list">
+    <h2>Task List</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Task Name</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody id="tasks">
+        <tr>
+          <td>💻 Learn HTML</td>
+          <td>Pending</td>
+        </tr>
+        <tr>
+          <td>🧹 Clean code</td>
+          <td>Done</td>
+        </tr>
+        <tr>
+          <td>👩‍💻Java Script</td>
+          <td>In-Progress</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <footer>
+    <p>© 2025 - My Tasks | Built with ☕ by Tasneem Almahrouq</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
